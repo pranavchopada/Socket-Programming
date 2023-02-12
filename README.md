@@ -2,7 +2,7 @@
 Server and Client Communication
 
 Project Description: This is a simple program that can send/receive chat messages and files between two devices. This is executed by the client and the server. 
-Server and the client should be run independently.They communicate with each other by having the client socket reach out to the server (listener socket) to form
+Server and the client should be run independently. They communicate with each other by having the client socket reach out to the server (listener socket) to form
 a connection using the IP address of the server. The client can then send a chat message to the server or request a file from the server. The server will then 
 reply to the message or find and send the requested file respectively. TCP was used to send and receive data.
 
